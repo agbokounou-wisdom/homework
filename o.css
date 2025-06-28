@@ -1,0 +1,24 @@
+*{
+  margin:10;
+  padding 0;
+  box-sizing: border-box;
+}
+
+img{
+  height:80px;
+  width:80px;
+}
+div{
+  display:flex;
+  justify-content: space space-between;
+}
+.image{
+  height:80px;
+  width:40;
+}
+#Eunice{
+  display:flex;
+  flex-direction:column;
+ align-items:center;
+}
+

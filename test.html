@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ma Page Personnelle</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="w-full bg-white shadow-sm py-6">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <!-- Image de gauche -->
+            <div class="w-1/4 flex justify-start">
+                <a href="https://esfbenin.net">
+                <img src="https://i.postimg.cc/2yVcNVW2/IMG-20250516-WA0005.jpg" alt="Image gauche" class="h-20 w-20 rounded-full object-cover" />
+                </a>
+            </div>
+
+            <!-- Texte centré -->
+            <div class="w-2/4 text-center">
+                <div class="border-2 border-black-500 rounded-lg py-4 px-6 bg-white shadow-md">
+                    <h1 class="text-2xl font-bold text-black-600">Bienvenue sur mon site</h1>
+                </div>
+            </div>
+
+            <!-- Image de droite -->
+            <div class="w-1/4 flex justify-end">
+                <a href="https://enseignementsuperieur.gouv.bj">                <img src="https://i.postimg.cc/W4G6r22X/IMG-20250516-WA0008.jpg" alt="Image droite" class="h-20 w-20 rounded-full object-cover" />
+                </a>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-10 flex-grow">
+        <section class="mb-12 max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-6 text-gray-800 border-b-2 border-black-500 pb-2">I- État Civil</h2>
+            
+            <div class="mb-8">
+                <p class="mb-2"><span class="font-semibold">Nom:</span> AGBOKOUNOU</p>
+                <p class="mb-2"><span class="font-semibold">Prénom:</span> Evrard</p>
+                <p class="mb-2"><span class="font-semibold">Âge:</span> 20 ans</p>
+                <p class="mb-2"><span class="font-semibold">Contact:</span> agbokounouevrard@gmail.com</p>
+            </div>
+            
+            <div class="flex justify-center mb-4">
+              
+                <img src="https://i.postimg.cc/RVQBPYMh/IMG-20250404-112953.jpg" class="rounded-full h-32 w-32 object-cover" />
+            </div>
+        </section>
+
+        <section class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-6 text-gray-800 border-b-2 border-black-500 pb-2">II- Mes Formations</h2>
+            
+            <div class="pl-4">
+                <p class="mb-4"><span class="font-semibold">1-</span> CEP</p>
+                <p class="mb-4"><span class="font-semibold">2-</span> BEPC</p>
+                <p class="mb-4"><span class="font-semibold">3-</span> Bac D</p>
+            </div>
+        </section>
+                    <h3 class="text-2xl font-bold mb-6 text-gray-800 border-b-2 border-black-500 pb-2">III- Description</h3>
+                    <p>Passionné de l'informatique, robotique et domoyique, je m'applique en python et je boss en html et en CSS</p>
+
+    </main>
+
+    <footer class="bg-gray-100 py-6 mt-10">
+        <div class="container mx-auto px-4 text-center text-gray-600">
+            <p>© 2025 Evrard Agbokounou. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
